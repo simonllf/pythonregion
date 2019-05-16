@@ -87,7 +87,8 @@ class Buy_Ticket():
 if __name__ == '__main__':
     begin = time.time()
     browser = webdriver.Chrome()
-    b = Buy_Ticket('上海', '重庆', '2018-09-18', '账号', '密码', 'ADULT')  #账号、密码自行修改
+    # b = Buy_Ticket('上海', '重庆', '2018-09-18', '账号', '密码', 'ADULT')  #账号、密码自行修改
+    b = Buy_Ticket('深圳', '张家界', '2019-06-18', '13713601420', 'qq24469814', 'ADULT')  # 账号、密码自行修改
     b.main()
     end = time.time()
     print('总耗时：%d秒' % int(end-begin))
